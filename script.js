@@ -64,13 +64,13 @@ timer.addEventListener("click", function () {
 function validateAnswer(answer) {
   var result = document.querySelector("#result");
   if (answer === questions[questionIndex].correctAnswer) {
-    result.innerText = "correct";
+    result.innerText = "Correct";
     setTimeout(function () {
       result.innerText = "";
     }, 1000);
   } else {
     secondsLeft -= penalty;
-    result.innerText = "Wrong";
+    result.innerText = "Incorrect";
     setTimeout(function () {
       result.innerText = "";
     }, 1000);
