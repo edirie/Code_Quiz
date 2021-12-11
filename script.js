@@ -87,8 +87,8 @@ function validateAnswer(answer) {
 }
 // submit
 function allDone() {
-  cardTitle.innerHTML = `<p>All Done </p>`;
-  cardText.innerHTML = `<p>YOU're final score is ${secondsLeft}<p/>
+  cardTitle.innerHTML = `<p>CONGRATULATIONS!</p>`;
+  cardText.innerHTML = `<p>You're final score is ${secondsLeft}<p/>
     <div class="input-group mb-3">
     <input type="text" class="form-control" placeholder="Enter Intial" id="intial" aria-label="Recipient's username" aria-describedby="button-addon2">
     <button class="btn btn-outline-secondary" type="button" id="createSubmit" onClick="FinalPage()">Submit</button>
